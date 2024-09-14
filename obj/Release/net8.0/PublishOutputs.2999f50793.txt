@@ -1,11 +1,6 @@
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/UserManagerApp
-/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/publish/web.config
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/appsettings.Development.json
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/appsettings.json
-/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/publish/appsettings.Development.json
-/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/publish/appsettings.json
-/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/publish/UserManagerApp.deps.json
-/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/publish/UserManagerApp.runtimeconfig.json
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/UserManagerApp.dll
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/UserManagerApp.runtimeconfig.json
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/publish/UserManagerApp.pdb
