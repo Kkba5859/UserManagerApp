@@ -6,10 +6,13 @@ EXPOSE 80
 # Use the SDK image for building the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["UserManagerApp/UserManagerApp.csproj", "UserManagerApp/"]
-RUN dotnet restore "UserManagerApp/UserManagerApp.csproj"
+
+# Adjust the path here if your .csproj is in a different location
+COPY ["UserManagerApp.csproj", "/src/"]
+RUN dotnet restore "/src/UserManagerApp.csproj"
+
 COPY . .
-WORKDIR "/src/UserManagerApp"
+WORKDIR "/src"
 RUN dotnet build "UserManagerApp.csproj" -c Release -o /app/build
 
 FROM build AS publish
