@@ -16,4 +16,4 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Set the entry point to the application
-ENTRYPOINT ["dotnet", "UserManagerApp.dll"]
+ENTRYPOINT ["dotnet", "UserManagerApplication.dll"]
