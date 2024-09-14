@@ -170,3 +170,8 @@
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/obj/Release/net8.0/UserManagerApp.pdb
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/obj/Release/net8.0/UserManagerApp.genruntimeconfig.cache
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/obj/Release/net8.0/ref/UserManagerApp.dll
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Release/net8.0/publish/web.config
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Release/net8.0/publish/appsettings.Development.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Release/net8.0/publish/appsettings.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Release/net8.0/publish/UserManagerApp.deps.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Release/net8.0/publish/UserManagerApp.runtimeconfig.json

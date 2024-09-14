@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UserManagerApp
 build_property.RootNamespace = UserManagerApp
-build_property.ProjectDir = /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/
+build_property.ProjectDir = /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp
+build_property.MSBuildProjectDirectory = /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Models/login.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Models/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kZWxzL2xvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Models/Logout.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Models/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kZWxzL0xvZ291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Models/Register.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Models/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kZWxzL1JlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Views/Home/Index.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Views/Home/Privacy.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Views/Shared/Error.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Views/Shared/_LoginPartial.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Views/_ViewImports.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Views/_ViewStart.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/Views/Shared/_Layout.cshtml]
+[/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-j4w4sxj7xo

@@ -169,3 +169,14 @@
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/runtimes/win-arm64/native/e_sqlite3.dll
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll
 /home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/publish/web.config
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/web.config
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/appsettings.Development.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/appsettings.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/publish/appsettings.Development.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/publish/appsettings.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/publish/UserManagerApp.deps.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/publish/UserManagerApp.runtimeconfig.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/UserManagerApp.deps.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/bin/Debug/net8.0/publish/UserManagerApp.runtimeconfig.json
+/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/obj/Debug/net8.0/UserManagerApp.sourcelink.json

@@ -5582,11 +5582,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/UserManagerApp.csproj",
+      "projectUniqueName": "/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/UserManagerApp.csproj",
       "projectName": "UserManagerApp",
-      "projectPath": "/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/UserManagerApp.csproj",
+      "projectPath": "/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/UserManagerApp.csproj",
       "packagesPath": "/home/artem/.nuget/packages/",
-      "outputPath": "/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApp/obj/",
+      "outputPath": "/home/artem/code/Dotnet/Task 4/UserManagerApp/UserManagerApplication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/artem/.nuget/NuGet/NuGet.Config"
