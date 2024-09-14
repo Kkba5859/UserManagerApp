@@ -1,0 +1,14 @@
+@model UserManagerApp.Models.LogoutModel
+
+@using (Html.BeginForm("Logout", "Account", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-group">
+        <label asp-for="ConfirmLogout"></label>
+        <input asp-for="ConfirmLogout" type="checkbox" class="form-check-input" />
+        <span asp-validation-for="ConfirmLogout" class="text-danger"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-danger">Log Out</button>
+}

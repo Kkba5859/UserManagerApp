@@ -1,0 +1,22 @@
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Mvc.Rendering
+@using Microsoft.AspNetCore.Mvc.ViewFeatures
+@inject UserManager<User> UserManager
+@inject SignInManager<User> SignInManager
+
+<nav>
+    <ul class="navbar-nav">
+        @if (SignInManager.IsSignedIn(User))
+        {
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+            </li>
+        }
+        else
+        {
+            <li class="nav-item">
+                <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            </li>
+        }
+    </ul>
+</nav>
