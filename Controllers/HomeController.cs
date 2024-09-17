@@ -1,10 +1,10 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using UserManagerApp.Models;
+using System.Diagnostics;
 using UserManagerApp.Data;
+using UserManagerApp.Models;
 
 namespace UserManagerApp.Controllers
 {
@@ -60,8 +60,8 @@ namespace UserManagerApp.Controllers
                 var user = await _userManager.FindByIdAsync(userId);
                 if (user != null)
                 {
-                    user.IsBlocked = true; 
-                    await _userManager.UpdateAsync(user); 
+                    user.IsBlocked = true;
+                    await _userManager.UpdateAsync(user);
                 }
             }
             return RedirectToAction("UserList");
@@ -76,8 +76,8 @@ namespace UserManagerApp.Controllers
                 var user = await _userManager.FindByIdAsync(userId);
                 if (user != null)
                 {
-                    user.IsBlocked = false; 
-                    await _userManager.UpdateAsync(user); 
+                    user.IsBlocked = false;
+                    await _userManager.UpdateAsync(user);
                 }
             }
             return RedirectToAction("UserList");
@@ -92,7 +92,7 @@ namespace UserManagerApp.Controllers
                 var user = await _userManager.FindByIdAsync(userId);
                 if (user != null)
                 {
-                    await _userManager.DeleteAsync(user); 
+                    await _userManager.DeleteAsync(user);
                 }
             }
             return RedirectToAction("UserList");

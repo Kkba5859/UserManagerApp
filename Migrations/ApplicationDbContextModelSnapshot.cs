@@ -215,9 +215,6 @@ namespace UserManagerApp.Migrations
                     b.Property<string>("Username")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("id")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")

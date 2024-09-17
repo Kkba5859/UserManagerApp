@@ -10,14 +10,14 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDefaultIdentity<User>(options => 
+builder.Services.AddDefaultIdentity<User>(options =>
 {
     options.SignIn.RequireConfirmedAccount = true;
 })
 .AddRoles<IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-builder.Services.AddRazorPages(); 
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
@@ -32,13 +32,13 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication(); 
-app.UseAuthorization(); 
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapRazorPages(); 
+app.MapRazorPages();
 
 app.Run();
