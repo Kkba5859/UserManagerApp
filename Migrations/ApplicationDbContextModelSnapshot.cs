@@ -198,7 +198,9 @@ namespace UserManagerApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("RegistrationDate")
-                        .HasColumnType("TEXT");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT")
+                        .HasDefaultValueSql("GETDATE()");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("TEXT");
@@ -209,6 +211,12 @@ namespace UserManagerApp.Migrations
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("TEXT");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("id")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 

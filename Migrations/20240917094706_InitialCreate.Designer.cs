@@ -11,8 +11,8 @@ using UserManagerApp.Data;
 namespace UserManagerApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240913124130_UpdateDatabaseSchema")]
-    partial class UpdateDatabaseSchema
+    [Migration("20240917094706_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -201,7 +201,9 @@ namespace UserManagerApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("RegistrationDate")
-                        .HasColumnType("TEXT");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT")
+                        .HasDefaultValueSql("GETDATE()");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("TEXT");
@@ -212,6 +214,12 @@ namespace UserManagerApp.Migrations
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("TEXT");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("id")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
