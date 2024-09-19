@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Npgsql.EntityFrameworkCore.PostgreSQL;
 using UserManagerApp.Models;
 
 namespace UserManagerApp.Data
@@ -17,16 +16,18 @@ namespace UserManagerApp.Data
         {
             base.OnModelCreating(builder);
 
-            // Customize default Identity table names
             builder.Entity<User>(entity =>
             {
                 entity.ToTable(name: "Users");
-                entity.Property(e => e.RegistrationDate).HasDefaultValueSql("CURRENT_TIMESTAMP");
+                entity.Property(e => e.RegistrationDate)
+                    .HasColumnType("datetime2") 
+                    .HasDefaultValueSql("SYSDATETIME()"); 
             });
 
             builder.Entity<IdentityRole>(entity =>
             {
                 entity.ToTable(name: "Roles");
+                entity.Property(e => e.Id).HasColumnType("nvarchar(450)"); 
             });
 
             builder.Entity<IdentityUserRole<string>>(entity =>
@@ -53,15 +54,6 @@ namespace UserManagerApp.Data
             {
                 entity.ToTable("UserTokens");
             });
-        }
-
-        // Override OnConfiguring to configure PostgreSQL if not configured elsewhere
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseNpgsql("Host=usermanagerapp-instance-1.cx4m084e4vpz.eu-north-1.rds.amazonaws.com;Database=app.db;Username=Kkba5859@gmail.com;Password=Shaginian;");
-            }
         }
     }
 }

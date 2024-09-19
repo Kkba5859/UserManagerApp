@@ -1,9 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using UserManagerApp.Data;
 using UserManagerApp.Models;
-using Npgsql.EntityFrameworkCore.PostgreSQL;
+using UserManagerApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +12,7 @@ builder.Services.AddControllersWithViews();
 // Configure Entity Framework Core to use SQL Server.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(connectionString));
+    options.UseSqlServer(connectionString));
 
 // Configure Identity services.
 builder.Services.AddDefaultIdentity<User>(options =>
@@ -22,6 +21,9 @@ builder.Services.AddDefaultIdentity<User>(options =>
 })
 .AddRoles<IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+// Register UserService as IUserService
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

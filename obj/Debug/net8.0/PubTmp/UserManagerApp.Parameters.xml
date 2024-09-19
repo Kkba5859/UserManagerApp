@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="UserManagerApplication" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\obj\\Debug\\net8\.0\\PubTmp\\Out\\$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Administrator\\Source\\Repos\\Kkba5859\\UserManagerApplication\\obj\\Debug\\net8\.0\\PubTmp\\Out\\$" />
   </parameter>
-  <parameter name="UserManagerApp.Data.ApplicationDbContext" description="" value="Host=usermanagerapp-instance-1.cx4m084e4vpz.eu-north-1.rds.amazonaws.com;Database=app.db;Username=Kkba5859@gmail.com;Password=Shaginian" tags="dbfullsql">
-    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\obj\\Debug\\net8\.0\\PubTmp\\EFSQLScripts\\UserManagerApp\.Data\.ApplicationDbContext\.sql$" />
+  <parameter name="UserManagerApp.Data.ApplicationDbContext" description="" value="Server=tcp:database-1dbserver.database.windows.net,1433;Initial Catalog=database-1;Persist Security Info=False;User ID=Shaginian;Password=Kkba5859@gmail.com;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Administrator\\Source\\Repos\\Kkba5859\\UserManagerApplication\\obj\\Debug\\net8\.0\\PubTmp\\EFSQLScripts\\UserManagerApp\.Data\.ApplicationDbContext\.sql$" />
   </parameter>
 </parameters>

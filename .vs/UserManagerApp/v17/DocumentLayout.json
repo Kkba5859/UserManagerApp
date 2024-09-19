@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|c:\\users\\administrator\\source\\repos\\kkba5859\\usermanagerapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|c:\\users\\administrator\\source\\repos\\kkba5859\\usermanagerapplication\\controllers\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|solutionrelative:controllers\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|c:\\users\\administrator\\source\\repos\\kkba5859\\usermanagerapplication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|c:\\users\\administrator\\source\\repos\\kkba5859\\usermanagerapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|c:\\users\\administrator\\source\\repos\\kkba5859\\usermanagerapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|c:\\users\\administrator\\source\\repos\\kkba5859\\usermanagerapplication\\controllers\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B48F0A9-9700-4FE1-B618-ED96F58ECE0B}|UserManagerApp.csproj|solutionrelative:controllers\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-19T08:03:45.146Z",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T09:34:59.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Controllers\\UserService.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Controllers\\UserService.cs",
+              "RelativeToolTip": "Controllers\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwAEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T10:59:05.448Z",
+              "WhenOpened": "2024-09-19T09:30:37.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Controllers\\IUserService.cs",
+              "RelativeDocumentMoniker": "Controllers\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Controllers\\IUserService.cs",
+              "RelativeToolTip": "Controllers\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T09:29:53.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Kkba5859\\UserManagerApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T09:20:34.881Z",
               "EditorCaption": ""
             }
           ]
