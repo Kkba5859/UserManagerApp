@@ -1,0 +1,25 @@
+{
+  "dependencies": {},
+  "parameters": {
+    "UserManagerApplication.resourceName": {
+      "Name": "UserManagerApplication.resourceName",
+      "Type": null,
+      "Value": "UserManagerApplication"
+    },
+    "UserManagerApplication.resourceGroupName": {
+      "Name": "UserManagerApplication.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "UserManagerApplication"
+    },
+    "UserManagerApplication.subscriptionId": {
+      "Name": "UserManagerApplication.subscriptionId",
+      "Type": "subscription",
+      "Value": "aa040526-6d5c-4f69-a9df-1da3de650c51"
+    },
+    "UserManagerApplication.resourceGroupLocation": {
+      "Name": "UserManagerApplication.resourceGroupLocation",
+      "Type": null,
+      "Value": "germanywestcentral"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAemnSXK/X2EaEtwdBIPnvWgAAAAACAAAAAAAQZgAAAAEAACAAAADO0RkIXlrZ6JLlQ3zdRk5ZnNFzru1E+AS5tV3mGWRdzAAAAAAOgAAAAAIAACAAAABrQzvjisIw1KoJOzY8Vvu/PKL+iv05AWYvsPTA03S9OYAAAADt3+cWFBnBdVWtfBfmc2sCTkgvJ0/LnJbzmfbn6eGSpPyFh7YMv+XDKSxkHfMgohoOSjG3rMdK/8m/kHUFQ1pjd8ZVc5ERbEvWGPOrYMEGZgRB/YhEFc6FHt9yzs5xAJGaaN0r1is/GElQe5OKvw1e/lbitbIK3v6V23BYPLhwz0AAAADXuxhV2+6bUbCmrbFkPqESe0JDPJdqKz6TA4RhZe0rPstwY9SZ4IbPddX03qwDSfWwQt3I9B14ksFfmfHnBtpj</EncryptedPassword>
+    <History>False|2024-09-18T11:12:39.1302640Z||;True|2024-09-17T23:24:06.8082032+04:00||;True|2024-09-17T23:00:20.3016155+04:00||;True|2024-09-17T22:58:56.4944226+04:00||;True|2024-09-17T22:57:18.0975889+04:00||;False|2024-09-17T22:55:26.2284338+04:00||;False|2024-09-17T22:49:36.1836583+04:00||;False|2024-09-17T22:23:38.9006202+04:00||;False|2024-09-17T16:51:53.0575866+04:00||;False|2024-09-17T16:36:16.5920827+04:00||;False|2024-09-17T16:20:01.7624731+04:00||;False|2024-09-17T15:22:14.5108788+04:00||;False|2024-09-17T15:21:37.2151955+04:00||;True|2024-09-17T15:20:50.4816852+04:00||;True|2024-09-17T15:20:07.0761437+04:00||;False|2024-09-17T15:19:22.2059608+04:00||;True|2024-09-17T15:17:54.6221403+04:00||;True|2024-09-17T15:15:21.1162064+04:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Host=usermanagerapp-instance-1.cx4m084e4vpz.eu-north-1.rds.amazonaws.com%3bDatabase=app.db%3bUsername=Kkba5859%40gmail.com%3bPassword=Shaginian</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="UserManagerApp.Data.ApplicationDbContext">
+      <Value>Host=usermanagerapp-instance-1.cx4m084e4vpz.eu-north-1.rds.amazonaws.com%3bDatabase=app.db%3bUsername=Kkba5859%40gmail.com%3bPassword=Shaginian</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

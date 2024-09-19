@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserManagerApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b316d4077d1c7f07a8b81fe22b05127f37bdbeb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ff0fa41b0f45090b711bc51437093f112a4d76b")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserManagerApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserManagerApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
